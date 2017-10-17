@@ -303,6 +303,14 @@ Page and heading titles
   margin-left: -60px;
 }
 
+/*nepal.html ko style*/
+.nepal h3{
+  font-size: 30px;
+  background-color: grey;
+  padding: 5px 5px;
+  color: white;
+}
+
 
 /*header navigation styles*/
 .header-v1 {
