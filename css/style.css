@@ -311,6 +311,21 @@ Page and heading titles
   color: white;
 }
 
+/*treakking.html ko headers*/
+.trek-heading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #b71c1c;
+}
+.trekking hr{
+    border-color: #c5bbab;
+    width: 30%;
+    border-bottom-width: 1px;
+    border-style: solid;
+}
+
 
 /*header navigation styles*/
 .header-v1 {
