@@ -314,9 +314,9 @@ Page and heading titles
 /*treakking.html ko headers*/
 .trek-heading{
   text-align: center;
-  font-size: 30px;
-  font-weight: 600;
-  padding-top: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 5px;
   color: #b71c1c;
 }
 .trekking hr{
@@ -325,7 +325,6 @@ Page and heading titles
     border-bottom-width: 1px;
     border-style: solid;
 }
-
 
 /*header navigation styles*/
 .header-v1 {
