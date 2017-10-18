@@ -325,6 +325,40 @@ Page and heading titles
     border-bottom-width: 1px;
     border-style: solid;
 }
+.trek-content{
+  background-color: #DCDCDC;
+}
+.trek-content h4{
+    margin-top: 20px;
+    background-color: #31708f;
+    font-size: 25px;
+    color: white;
+    padding: 15px 10px;
+    text-transform: uppercase;
+}
+.trek-content p {
+  margin-bottom: 20px;
+
+}
+
+.highlight h3{
+    color: white;
+    background-color: #cf431a;
+    padding: 5px 15px;
+  }
+.highlight li{
+  font-size: 13px;
+  padding-left: 24px;
+  font-weight: 600;
+}
+
+.map img{
+  height: 480px;
+}
+
+.tabledata > thead > th{
+text-transform: uppercase;
+}
 
 /*header navigation styles*/
 .header-v1 {
