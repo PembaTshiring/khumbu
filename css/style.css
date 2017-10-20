@@ -340,6 +340,11 @@ Page and heading titles
   padding:10px 10px !important;
   color: #fff;
   text-transform: uppercase
+} 
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
 }
 
 .highlight h3{
