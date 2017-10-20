@@ -324,6 +324,7 @@ Page and heading titles
   background-color: #DCDCDC;
 }
 .trek-content h4{
+    border-radius: 0 25px;
     margin-top: 20px;
     background-color: #31708f;
     font-size: 25px;
@@ -340,7 +341,13 @@ Page and heading titles
   padding:10px 10px !important;
   color: #fff;
   text-transform: uppercase
-} 
+}
+.tbl2 th {
+  background-color: #CF4305;
+  padding:10px 10px !important;
+  color: #fff;
+  text-transform: uppercase
+}  
 .table td.fit,
 .table th.fit {
     white-space: nowrap;
@@ -348,13 +355,13 @@ Page and heading titles
 }
 
 .highlight h3{
+  border-radius: 15px 0;
     color: white;
     background-color: #cf431a;
     padding: 5px 15px;
   }
 .highlight li{
   font-size: 13px;
-  padding-left: 24px;
   font-weight: 600;
 }
 
@@ -366,6 +373,17 @@ Page and heading titles
 text-transform: uppercase;
 }
 
+.panel > .p-blue {
+    background-color: #31708f;
+    color: white;
+
+}
+
+.panel > .p-red {
+    background-color: #CF4305;
+    color: white;
+
+}
 /*header navigation styles*/
 .header-v1 {
   position: absolute;
