@@ -1,8 +1,3 @@
-/* 
-    Author     : Design_mylife
-    File       : Assan charity template
-    version    : v1.0
-*/
 /**google font**/
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800";
 @import "https://fonts.googleapis.com/css?family=Raleway:400,600,700,800";
@@ -339,6 +334,12 @@ Page and heading titles
 .trek-content p {
   margin-bottom: 20px;
 
+}
+.tbl th {
+  background-color: #31708f;
+  padding:10px 10px !important;
+  color: #fff;
+  text-transform: uppercase
 }
 
 .highlight h3{
