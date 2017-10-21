@@ -374,15 +374,40 @@ text-transform: uppercase;
 }
 
 .panel > .p-blue {
+  font-size: 15px;
+  text-align: center;
     background-color: #31708f;
     color: white;
-
 }
 
 .panel > .p-red {
     background-color: #CF4305;
     color: white;
+    font-size: 15px;
+  text-align: center;
+}
+.panel-body ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 600;
+}
 
+/*terms and conditions*/
+.terms h1{
+  text-align: center;
+  color: #00589A;
+}
+.sub-head{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  color:#993300;
+}
+.sub-body{
+  padding: 0px 25px;
+  font-family: Helvetica,"Helvetica Neue",Arial,sans-serif,"websafe";
+  font-size: 15px;
 }
 /*header navigation styles*/
 .header-v1 {
