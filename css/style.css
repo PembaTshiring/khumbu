@@ -397,15 +397,27 @@ text-transform: uppercase;
   text-align: center;
   color: #00589A;
 }
-/*.cardstyle{
+.cardstyle{
+  position: relative;
 padding: 15px 20px;
 margin: auto;
 display: block;
+height: 200px;
+}
+.cardstyle p{
+margin-top: 10px;
+}
+.p-row{
+  padding: 10px 0px;
 }
 .cardstyle img{
   display: block;
   margin:auto;
-}*/
+}
+.p-btn{
+  position: absolute; 
+bottom: 0;
+}
 .sub-head{
   text-transform: uppercase;
   font-size: 20px;
