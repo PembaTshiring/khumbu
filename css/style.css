@@ -408,6 +408,7 @@ height: 200px;
 margin-top: 10px;
 }
 .p-row{
+  margin: 0px;
   padding: 10px 0px;
 }
 .cardstyle img{
