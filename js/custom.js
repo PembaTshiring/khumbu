@@ -21,6 +21,11 @@ $(document).ready(function () {
     loop:true,
     margin:10,
     nav:false,
+    items:1,
+     autoplay:3000,
+   
+    autoplayHoverPause:true,
+   
     responsive:{
         0:{
             items:1
@@ -37,4 +42,4 @@ $(document).ready(function () {
         delay: 10,
         time: 5000
     });
-});
+   });

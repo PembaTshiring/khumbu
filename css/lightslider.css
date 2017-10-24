@@ -10,7 +10,8 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    width:87%;
 }
 .lightSlider:before, .lightSlider:after {
     content: " ";
@@ -125,19 +126,23 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    
 }
 .lSSlideOuter .lSPager.lSGallery li {
     overflow: hidden;
     -webkit-transition: border-radius 0.12s linear 0s 0.35s linear 0s;
     transition: border-radius 0.12s linear 0s 0.35s linear 0s;
+    opacity:0.4;
 }
 .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
-    border-radius: 5px;
+    border-radius: 25%;
+    opacity: 0.9;
 }
 .lSSlideOuter .lSPager.lSGallery img {
     display: block;
     height: auto;
-    max-width: 100%;
+    width: 100%;
+
 }
 .lSSlideOuter .lSPager.lSGallery:before, .lSSlideOuter .lSPager.lSGallery:after {
     content: " ";
