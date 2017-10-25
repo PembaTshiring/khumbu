@@ -329,7 +329,7 @@ Page and heading titles
     background-color: #31708f;
     font-size: 25px;
     color: white;
-    padding: 15px 10px;
+    padding: 5px 10px;
     text-transform: uppercase;
 }
 .trek-content p {
@@ -367,6 +367,7 @@ Page and heading titles
 
 .map img{
   height: 480px;
+  width: 100%;
 }
 
 .tabledata > thead > th{
@@ -390,6 +391,23 @@ text-transform: uppercase;
   list-style: none;
   font-size: 15px;
   font-weight: 600;
+}
+
+.dbl-table th{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+.dbl-table td{
+  color: #fff;
+  font-size: 15px;
+}
+.tb-red{
+  background-color: #ad1f0d;
+}
+.tb-blue{
+  background-color: #1e5f6e;
 }
 
 /*terms and conditions*/

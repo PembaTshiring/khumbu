@@ -120,7 +120,7 @@
         </div><!--end page title-->
             <div class="container-fluid trek-content">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-sm-9 col-xs-12">
                         <h4>The tour of Manaslu by Larkya Pass or Tsum Valley or Rupina La</h4>
                     </div>
                     <div class="col-sm-12">
@@ -147,10 +147,10 @@
                     <div class="col-sm-6">
                         <ul id="imageGallery" >
                             <li data-thumb="images/team-1.jpg" data-src="images/team-1.jpg" style="width: 100%;">
-                                <img src="images/team-1.jpg" style="width: 100%;" />
+                                <img class="img-responsive" src="http://sachinchoolur.github.io/lightslider/img/cS-1.jpg" style="width: 100%;" />
                             </li>
                             <li data-thumb="images/team-1.jpg" data-src="images/team-1.jpg">
-                                <img src="images/team-1.jpg" style="width: 100%;" />
+                                <img class="img-responsive" src="http://sachinchoolur.github.io/lightslider/img/cS-2.jpg" style="width: 100%;" />
                             </li>
                         </ul>
                     </div>
@@ -2552,9 +2552,10 @@
          <script>
            $(document).ready(function() {
             $('#imageGallery').lightSlider({
-                gallery:true,
                 item:1,
                 loop:true,
+                auto:true,
+                speed:1000,
                 thumbItem:9,
                 slideMargin:0,
                 enableDrag: false,
