@@ -321,7 +321,7 @@ Page and heading titles
     border-style: solid;
 }
 .trek-content{
-  background-color: #eee;
+  background-color: #DCDCDC;
 }
 .trek-content h4{
     border-radius: 0 25px;
@@ -408,7 +408,6 @@ height: 200px;
 margin-top: 10px;
 }
 .p-row{
-  margin: 0px;
   padding: 10px 0px;
 }
 .cardstyle img{
@@ -674,7 +673,6 @@ Slider styless
   padding: 0px;
 }
 
-
 /*
 Icon boxes style
 */
@@ -888,14 +886,11 @@ Causes styles
 }
 
 .causes-desc {
-  padding: 10px;
+  padding: 15px;
   background-color: #fff;
 }
 .causes-desc h4 {
   margin-bottom: 15px;
-}
-.causes-desc p{
-  line-height: 18px;
 }
 .causes-desc h4 a {
   color: #222;
@@ -932,7 +927,7 @@ Causes styles
   overflow: hidden;
 }
 .causes-list-box .causes-desc {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .causes-list-box .causes-desc h4 {
   font-family: "Raleway", sans-serif;
