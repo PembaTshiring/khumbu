@@ -306,6 +306,15 @@ Page and heading titles
   color: white;
 }
 
+/*kathmandu.html ko style*/
+.kathmandu h3{
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 600;
+  color: #42b8d4;
+  font-family: "Raleway", sans-serif;
+}
+
 /*treakking.html ko headers*/
 .trek-heading{
   text-align: center;
