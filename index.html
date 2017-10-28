@@ -22,6 +22,57 @@
         <!--custom css file-->
         <link href="css/style.css" rel="stylesheet">
 
+    <style type="text/css">
+        /*@thewalke css on successfull */
+.full-img{
+padding: 0px;
+}
+ img.imgcoal{
+  width: 100%;
+  height: 350px;
+}
+
+/*----------------------------*/
+/*====image overlay css===========000000000000000000000000===*/
+.wp-caption{
+    background: black;
+position: relative;
+padding: 0px;
+margin:0px;
+}
+.wp-caption img{
+display: block;
+max-width: 100%;
+height: auto;  
+}
+.wp-caption-text{
+opacity: 0;
+position: absolute;
+width: 100%;
+color: #fff;
+left: 0px;
+bottom: 0px;
+padding: 0.75em 1em;
+font-weight: 700;
+z-index: 2;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+background-color: rgba(0,0,0,.7);
+-webkit-transition:  .5s padding;
+transition:.5s padding;
+}
+
+.wp-caption:hover img{
+    opacity: 0.7;
+}
+.wp-caption:hover .wp-caption-text {
+opacity: 1;
+padding-bottom: 10%;
+}
+
+/*============================*/
+
+    </style>
     </head>
     <body>
 <!-- Preloader -->
@@ -733,8 +784,8 @@
         <div class="space-50"></div>
 
 
-        <div class="stories">
-            <div class="container">
+        <div class="stories" style="padding-bottom: 0px !important;">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="center-title">
@@ -746,42 +797,45 @@
                     </div>
                 </div><!--end center title-->
                 <div class="row">
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="story-box">
-                            <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
-                            </p>
-                            <div class="story-info">
-                                <img src="images/team-1.jpg" alt="" class="img-responsive img-circle" width="50">
-                                <span>Nikita Miller - <em>Assan inc.</em></span>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="story-box">
-                            <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
-                            </p>
-                            <div class="story-info">
-                                <img src="images/team-2.jpg" alt="" class="img-responsive img-circle" width="50">
-                                <span>Dwayne Smith - <em>Assan inc.</em></span>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                    <div class="col-sm-4 margin-b-30">
-                        <div class="story-box">
-                            <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
-                            </p>
-                            <div class="story-info">
-                                <img src="images/team-3.jpg" alt="" class="img-responsive img-circle" width="50">
-                                <span>John Doe - <em>Assan inc.</em></span>
-                            </div>
-                        </div>
-                    </div><!--end col-->
+                     <div class="col-sm-4 full-img">
+                         <figure class="wp-caption">
+<img class="demo" src="images/img1.jpg" alt="Image" />
+<figcaption class="wp-caption-text">This is a caption text</figcaption>
+</figure>                          
+                    </div>
+                   <div class="col-sm-4 full-img">
+                         <figure class="wp-caption">
+<img class="demo" src="images/img1.jpg" alt="Image" />
+<figcaption class="wp-caption-text">This is a caption text</figcaption>
+</figure>                          
+                    </div>
+                     <div class="col-sm-4 full-img">
+                         <figure class="wp-caption">
+<img class="demo" src="images/img1.jpg" alt="Image" />
+<figcaption class="wp-caption-text">This is a caption text</figcaption>
+</figure>                          
+                    </div>
                 </div>
-            </div>
+                         
+                <div class="row">
+                    <div class="col-md-6 full-img">
+                        <figure class="wp-caption">
+<img class="demo" src="images/img1.jpg" alt="Image" />
+<figcaption class="wp-caption-text">This is a caption text</figcaption>
+</figure>                          
+                    </div>
+                    <div class="col-md-6 full-img">
+                         <figure class="wp-caption">
+<img class="demo" src="images/img1.jpg" alt="Image" />
+<figcaption class="wp-caption-text">This is a caption text</figcaption>
+</figure>                          
+                    </div>
+               
+                    </div><!--end container-->
         </div><!--end stories-->
+                   
+                
+          
 
         <div class="parallax-bg pd-t-80 pd-b-50" style="background: url('images/bg1.jpg');">
             <div class='container'>

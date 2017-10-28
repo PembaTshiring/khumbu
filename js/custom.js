@@ -23,7 +23,7 @@ $(document).ready(function () {
     nav:false,
     items:1,
      autoplay:3000,
-   
+   autoheight:false,
     autoplayHoverPause:true,
    
     responsive:{
