@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-display: flex;
     -ms-display: flex;
     align-items: center;
+    margin: auto;
   }
 }
 .img-left {
@@ -320,7 +321,7 @@ Page and heading titles
 /*treakking.html ko headers*/
 .trek-heading{
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   padding-top: 5px;
   color: #b71c1c;
