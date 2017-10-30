@@ -332,16 +332,15 @@ Page and heading titles
     border-style: solid;
 }
 .trek-content{
-  background-color: #DCDCDC;
+  margin-top: 20px;
+  background-color: #eee;
+  -webkit-box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
+-moz-box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
+box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
 }
 .trek-content h4{
-    border-radius: 0 25px;
     margin-top: 20px;
-    background-color: #31708f;
     font-size: 25px;
-    color: white;
-    padding: 5px 10px;
-    text-transform: uppercase;
 }
 .trek-content p {
   margin-bottom: 20px;
