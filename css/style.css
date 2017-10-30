@@ -1,6 +1,8 @@
 /**google font**/
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800";
 @import "https://fonts.googleapis.com/css?family=Raleway:400,600,700,800";
+
+
 /**colors**/
 .red-color {
   color: #f55b63 !important;
@@ -152,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-display: flex;
     -ms-display: flex;
     align-items: center;
+    margin: auto;
   }
 }
 .img-left {
@@ -306,10 +309,19 @@ Page and heading titles
   color: white;
 }
 
+/*kathmandu.html ko style*/
+.kathmandu h3{
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 600;
+  color: #42b8d4;
+  font-family: "Raleway", sans-serif;
+}
+
 /*treakking.html ko headers*/
 .trek-heading{
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   padding-top: 5px;
   color: #b71c1c;
@@ -321,16 +333,15 @@ Page and heading titles
     border-style: solid;
 }
 .trek-content{
-  background-color: #DCDCDC;
+  margin-top: 20px;
+  background-color: #eee;
+  -webkit-box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
+-moz-box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
+box-shadow: 0px 10px 67px -26px rgba(0,0,0,0.96);
 }
 .trek-content h4{
-    border-radius: 0 25px;
     margin-top: 20px;
-    background-color: #31708f;
     font-size: 25px;
-    color: white;
-    padding: 15px 10px;
-    text-transform: uppercase;
 }
 .trek-content p {
   margin-bottom: 20px;
@@ -367,6 +378,7 @@ Page and heading titles
 
 .map img{
   height: 480px;
+  width: 100%;
 }
 
 .tabledata > thead > th{
@@ -390,6 +402,23 @@ text-transform: uppercase;
   list-style: none;
   font-size: 15px;
   font-weight: 600;
+}
+
+.dbl-table th{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+.dbl-table td{
+  color: #fff;
+  font-size: 15px;
+}
+.tb-red{
+  background-color: #ad1f0d;
+}
+.tb-blue{
+  background-color: #1e5f6e;
 }
 
 /*terms and conditions*/
@@ -429,6 +458,16 @@ bottom: 0;
   padding: 0px 25px;
   font-family: Helvetica,"Helvetica Neue",Arial,sans-serif,"websafe";
   font-size: 16px;
+}
+
+/*same height*/
+.col-container {
+    display: table;
+    width: 100%;
+}
+.col {
+    display: table-cell;
+    padding: 16px;
 }
 /*header navigation styles*/
 .header-v1 {
@@ -1538,4 +1577,3 @@ Volunteers
     left: 0;
   }
 }
-
